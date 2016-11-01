@@ -25,7 +25,7 @@ fn main() {
             Err(_) => {
                 println!("Not an Integer");
                 continue;
-            },
+            }
         };
 
         println!("You guessed: {}", guess);
